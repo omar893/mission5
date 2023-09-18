@@ -3,7 +3,7 @@ import React from "react";
 const MetroNavBar = () => {
     return (
         <>
-            <div class="flex p-1 justify-around">
+            <div class="flex py-4 justify-around">
                 <img
                     class ="pr-4"
                     src="/images/logo.svg"
