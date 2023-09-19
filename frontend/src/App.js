@@ -4,6 +4,7 @@ import MyDataList from "./components/data-list"
 import MetroNavBar from "./components/navbar";
 import PropertyCard from "./components/propertyCard";
 import ReviewsCarousel from "./components/reviewsCarousel";
+import Footer from "./components/footer";
 //import "./App.css"
 
 function App() {
@@ -61,8 +62,11 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="my-24">
+      <div class="mt-24">
         <ReviewsCarousel/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );
