@@ -3,6 +3,7 @@ import { Switch, Route, Link } from "react-router-dom";
 import MyDataList from "./components/data-list"
 import MetroNavBar from "./components/navbar";
 import PropertyCard from "./components/propertyCard";
+import ReviewsCarousel from "./components/reviewsCarousel";
 //import "./App.css"
 
 function App() {
@@ -59,6 +60,9 @@ function App() {
             <p class="text-xs ">We excel in property management tasks, going beyond the norm. Our services include expert staging to attract top-tier renters, rigorous tenant selection, and market-savvy management in Auckland. We guarantee high returns, peace of mind, and risk reduction. Our award-winning systems ensure excellence in every aspect. Contact our experienced Auckland team for top-notch property management.</p>
           </div>
         </div>
+      </div>
+      <div class="my-24">
+        <ReviewsCarousel/>
       </div>
     </div>
   );
